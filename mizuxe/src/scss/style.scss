@@ -1,0 +1,24 @@
+$primary: #3292a6;
+
+
+
+body{
+	margin-top: 105px;
+}
+
+.navbar{
+	box-shadow: 2px 2px 5px $primary;
+	opacity: .9;
+	background-color:#fff;
+
+	.nav-item{
+		font-size: 1.4rem;
+		padding-right: 20px;
+	}
+}
+
+#showcase{
+	position: relative;
+	background-image: url(../img/mountains.jpg);
+	min-height: 600px;
+}
